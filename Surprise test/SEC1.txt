@@ -1,0 +1,62 @@
+SECTION 1
+QUE 1
+a)
+mysql> select first_name, manager_id from emp_details_view;
++-------------+------------+
+| first_name  | manager_id |
++-------------+------------+
+| Alexander   |        102 |
+| Bruce       |        103 |
+| David       |        103 |
+
+| Ellen       |        149 |
+| Alyssa      |        149 |
+| Jonathon    |        149 |
+| Jack        |        149 |
+| Charles     |        149 |
+| Hermann     |        101 |
++-------------+------------+
+106 rows in set (0.00 sec)
+
+=====================================================
+b)
+mysql> select first_name, department_name from emp_details_view;
++-------------+------------------+
+| first_name  | department_name  |
++-------------+------------------+
+| Jennifer    | Administration   |
+| Michael     | Marketing        |
+| Pat         | Marketing        |
+| Den         | Purchasing       |
+| Alexander   | Purchasing       |
+| Shelli      | Purchasing       |
+| Sigal       | Purchasing       |
+| Guy         | Purchasing       |
+| Karen       | Purchasing       |
+| Susan       | Human Resources
+
+| Jose Manuel | Finance          |
+| Luis        | Finance          |
+| Shelley     | Accounting       |
+| William     | Accounting       |
++-------------+------------------+
+106 rows in set (0.00 sec)
+============================================================
+
+QUE 3
+
+a) mysql> select max(salary) from employees;
++-------------+
+| max(salary) |
++-------------+
+|    24000.00 |
++-------------+
+1 row in set (0.00 sec)
+
+mysql> select department_id from employees where salary=24000;
++---------------+
+| department_id |
++---------------+
+|            90 |
++---------------+
+1 row in set (0.00 sec)
