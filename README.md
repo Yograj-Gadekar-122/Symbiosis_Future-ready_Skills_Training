@@ -1,2 +1,2 @@
-# Symbiosis_Future-ready_Skills_Training
-Symbiosis_Future-ready_Skills_Training
+# Symbiosis_University(FST-Program)
+Symbiosis_University(FST-Program)
